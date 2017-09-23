@@ -45,7 +45,7 @@
 <%- css('css/style') %>
 
 <% if (is_home() && theme.animate){ %>
-    <style> .article { opacity: 0;} </style>
+    <style> .article { opacity: 1;} </style>
 <% } %>
 
 <link href="<%- theme.CDN.fontawesome %>" rel="stylesheet">
@@ -79,7 +79,7 @@ if ( is_archive() ) {
         isCategory: <%=is_category()%>,
         fancybox_js: "<%- theme.CDN.fancybox_js %>",
         scrollreveal: "<%- theme.CDN.scrollreveal %>",
-        search: <%= theme.search.on %>
+        search: <%= theme.search.onload %>
     }
 </script>
 

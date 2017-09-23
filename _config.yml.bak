@@ -1,5 +1,5 @@
 # Theme Version | 当前版本
-Yelee: "3.6"
+Yelee: "3.5"
 
 # >>> Basic Setup | 基础设置 <<<
 
@@ -9,16 +9,15 @@ Yelee: "3.6"
 menu:
   主页: /
   所有文章: /archives/
-  标签云: /tags/
-  #相册: /tags/相册
   #随笔: /tags/随笔
+  标签云: /tags/
   关于我: /about/
 
 # Link to your avatar | 填写头像地址
-avatar: /assets/img/avatar.jpg
+avatar: /img/avatar.png
 
 # Small icon of Your site | 站点小图标地址
-favicon: /favicon.ico
+favicon: /favicon.png
 
 # Internationalization | 主题语言
 ## Change Language in SITE's _config.yml | 在站点配置中切换语言
@@ -41,12 +40,12 @@ since: 2016
 ## https://github.com/hexojs/hexo-generator-feed
 
 subnav:
-  #Email: "mailto:123@123.com"
-  新浪微博: "https://weibo.com/iriqium"
-  GitHub: "https://github.com/normantag"
-  知乎: "https://www.zhihu.com/people/normantag"
+  Email: "mailto:123@123.com"
+  #新浪微博: "sina weibo"
+  GitHub: "#"
   #V2EX: "#"
   RSS: "/atom.xml"
+  #知乎: "zhihu"
   #豆瓣: "douban"
   #简书: "jianshu"
   #SegmentFault: ""
@@ -182,14 +181,13 @@ tagcloud: true
 
 # Blogroll, Link exchange | 友情链接
 friends:
-  360移动安全专栏: http://blogs.360.cn/360mobile/
-  安全客: http://bobao.360.cn/
   Hexo: https://hexo.io
-
+  GitHub: https://pages.github.com/
+  MOxFIVE: http://moxfive.xyz/
 #friends: false
 
 #是否开启“关于我”。
-aboutme: Norman
+aboutme: 专注于前端
 #aboutme: false
 
 # Open link in a new tab | 是否在新窗口打开链接
@@ -290,11 +288,10 @@ progressBar:
 
 # 文章末尾是否显示打赏按钮
 donate:
-  on: true
+  #on: true
   reward_comment: 哎呦，不行了，要睡觉了，赏我 e(=2.72) 元咖啡钱吧，您的支持将鼓励我继续创作！
-  alipay: /assets/img/alipay.png
-  # 微信二维码图片地址
-  wechatpay: /assets/img/wechat.png
+  wechatpay: /img/wechat-reward-qr.png
+  alipay: /img/alipay-reward-qr.png
 
 CDN:
   jquery: //cdn.bootcss.com/jquery/2.2.4/jquery.min.js
