@@ -1,4 +1,23 @@
+# My hexo-theme-yelee Mod
+
+这个主题是在 @zhwhong 的主题（ `https://github.com/zhwhong/hexo-theme-yelee`）修改而来的，所做的修改如下：
+
+- 修改了几个bug
+
+- 修改了赞赏的按钮UI，使用Litten的**hexo-theme-yilia**中的UI
+
+  ​
+
+
+
+
+
+----
+
+
+
 <p align="center">
+
     <a href="https://github.com/MOxFIVE/hexo-theme-yelee" target="_blank">
         <img src="http://moxfive.github.io/resources/yelee-mockup.jpg">
     </a>
@@ -56,17 +75,17 @@ git pull
 ```
 
 ### New Features [DEMO](http://moxfive.xyz/yelee/new-features.html)
-| - |                En               |
-|:-:|:-------------------------------:|
-| 1 |  Flexible table of contents      |
-| 2 |  Transparent & Random background |
-| 3 |  Scrolling button                |
-| 4 |  Copyright info.                 |
-| 5 |  Post navigation button          |
-| 6 |  Site counter                    |
-| 7 |  i18n, multi-language          |
-| 8 |  Local Site Search           |
-| 9 |  Load Comment dynamically    |
+|  -   |               En                |
+| :--: | :-----------------------------: |
+|  1   |   Flexible table of contents    |
+|  2   | Transparent & Random background |
+|  3   |        Scrolling button         |
+|  4   |         Copyright info.         |
+|  5   |     Post navigation button      |
+|  6   |          Site counter           |
+|  7   |      i18n, multi-language       |
+|  8   |        Local Site Search        |
+|  9   |    Load Comment dynamically     |
 
 ### Configuration
 
@@ -85,12 +104,12 @@ language: en
 
 ##### Available Languages
 
-| Code           | -                     | -        | Contributor(s) |
-|----------------|:-----------------------:|:----------:|:--------------:|
-| **en**         | English               | 英语     |     MOxFIVE    |
-| **zh-Hans**    | Chinese (Simplified)  | 大陆简体 |     MOxFIVE    |
-| **zh-Hant-HK** | Chinese (Traditional) | 港澳繁體 |     MOxFIVE    |
-| **zh-Hant-TW** | Chinese (Traditional) | 台灣正體 |     MOxFIVE    |
+| Code           |           -           |  -   | Contributor(s) |
+| -------------- | :-------------------: | :--: | :------------: |
+| **en**         |        English        |  英语  |    MOxFIVE     |
+| **zh-Hans**    | Chinese (Simplified)  | 大陆简体 |    MOxFIVE     |
+| **zh-Hant-HK** | Chinese (Traditional) | 港澳繁體 |    MOxFIVE     |
+| **zh-Hant-TW** | Chinese (Traditional) | 台灣正體 |    MOxFIVE     |
 
 > **Any Contribution is Welcome！**
 
